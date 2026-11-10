@@ -1,0 +1,6 @@
+# Autoracconigi S.a.s. di Vigna Filippino e C. — sito statico
+User-agent: *
+Allow: /
+Disallow: /catalogo.json
+
+Sitemap: https://www.autoracconigi.it/sitemap.xml

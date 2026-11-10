@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Autoracconigi — auto usate a Torino dal 1973">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1621"/>
+      <stop offset=".55" stop-color="#16293b"/>
+      <stop offset="1" stop-color="#22405e"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity=".06" stroke-width="2">
+    <path d="M0 420h1200M0 480h1200M0 550h1200"/>
+  </g>
+  <rect y="400" width="1200" height="230" fill="url(#floor)"/>
+  <g transform="translate(660 320) scale(.78)" fill="#ffffff" fill-opacity=".17">
+    <path d="M138 452c8-52 44-88 108-99 44-52 132-76 214-62 76 13 130 51 176 86 76 8 132 27 152 66 14 28 6 52-22 60l-26 2c-8-38-42-64-86-64s-78 26-86 64H344c-8-38-42-64-86-64s-78 26-86 64l-20-1c-14-1-16-22-14-52z"/>
+    <circle cx="258" cy="504" r="58"/><circle cx="762" cy="504" r="58"/>
+  </g>
+  <g font-family="Inter, 'Helvetica Neue', Arial, sans-serif" fill="#ffffff">
+    <text x="72" y="140" font-size="30" letter-spacing="12" fill-opacity=".7">TORINO · DAL 1973</text>
+    <text x="72" y="248" font-size="96" font-weight="800" letter-spacing="-2">Autoracconigi</text>
+    <text x="72" y="316" font-size="40" fill-opacity=".85">Auto usate raccontate senza segreti</text>
+    <text x="72" y="560" font-size="30" fill-opacity=".7">Corso Racconigi 211 · 011 382 3123</text>
+  </g>
+  <g>
+    <rect x="72" y="360" width="286" height="60" rx="10" fill="#e0a43c"/>
+    <text x="102" y="400" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="5" fill="#0b1621">PREZZO VERO</text>
+  </g>
+</svg>
