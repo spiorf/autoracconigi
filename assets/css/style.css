@@ -89,14 +89,15 @@ section { padding-block: clamp(3rem, 6vw, 5.5rem); }
 }
 .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--accent); display: inline-block; }
 .section--dark .eyebrow { color: var(--accent); }
-.lead { font-size: clamp(1.05rem, 1.6vw, 1.22rem); color: var(--body); max-width: 62ch; }
+/* i paragrafi prendono la larghezza del container: nessuna colonna a "ch" (scelta del titolare, 2026-11-11) */
+.lead { font-size: clamp(1.05rem, 1.6vw, 1.22rem); color: var(--body); }
 /* --body è un colore da fondo chiaro: sul navy del hero e delle sezioni dark non si legge (1,6:1),
    quindi il paragrafo prende il colore della sezione (.hero #d9e3ee, .section--dark #cfd9e4). */
 .hero .lead, .section--dark .lead { color: inherit; }
 /* anche i link scritti dal pannello in un paragrafo devono restare leggibili sul navy */
 .hero .lead a, .section--dark .lead a { color: var(--accent); }
 .hero .lead a:hover, .section--dark .lead a:hover { color: #fff; }
-.section-head { max-width: 70ch; margin-bottom: clamp(1.6rem, 3vw, 2.6rem); }
+.section-head { margin-bottom: clamp(1.6rem, 3vw, 2.6rem); }
 .section-head--center { margin-inline: auto; text-align: center; }
 .section-head--center .eyebrow::before { display: none; }
 
@@ -422,7 +423,6 @@ input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent-d
 .contact-list .k { font-size: .76rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
 .contact-list a { font-weight: 600; overflow-wrap: anywhere; }
 
-.prose { max-width: 70ch; }
 .prose h2 { margin-top: 2rem; }
 .prose h2:first-child { margin-top: 0; }
 .prose ul { padding-left: 1.1rem; }
