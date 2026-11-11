@@ -432,7 +432,7 @@ input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent-d
 .breadcrumbs span { color: var(--line-strong); }
 
 .notice { display: flex; gap: .8rem; align-items: flex-start; border: 1px solid var(--line); border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: var(--radius-sm); padding: .9rem 1.1rem; font-size: .92rem; color: #5a4520; margin-bottom: 1.6rem; }
-.notice svg { flex: none; margin-top: .2rem; color: var(--accent-dark); }
+.notice svg, .notice .icon-glyph { flex: none; margin-top: .2rem; color: var(--accent-dark); }
 .notice--info { background: var(--paper-2); border-left-color: var(--navy-700); color: var(--body); }
 .notice--warn { background: var(--warn-soft); border-left-color: var(--warn); color: #5f3d11; }
 
