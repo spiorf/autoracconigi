@@ -1,31 +1,30 @@
 {
-  "generato_il": "2026-11-11T15:36:32.227Z",
+  "generato_il": "2026-11-11T16:11:30.651Z",
   "sorgente": "data/cars.json",
   "totali": 12,
   "disponibili": 10,
   "auto": [
     {
-      "id": "ES-0010",
-      "slug": "fiat-dobo-1-6-mjt-cargo-lavoro",
-      "url": "/auto/fiat-dobo-1-6-mjt-cargo-lavoro/",
-      "marca": "Fiat",
-      "modello": "Doblò",
-      "allestimento": "1.6 MJT Cargo Lavoro 105 CV",
-      "anno": 2019,
-      "km": 121500,
-      "prezzo": 9900,
-      "carburante": "diesel",
-      "cambio": "manuale",
-      "potenza_cv": 105,
-      "posti": 2,
-      "classe_emissioni": "Euro 6d-temp",
+      "id": "ES-0005",
+      "slug": "toyota-yaris-1-5-hybrid-trend",
+      "url": "/auto/toyota-yaris-1-5-hybrid-trend/",
+      "marca": "Toyota",
+      "modello": "Yaris",
+      "allestimento": "1.5 Hybrid Trend 116 CV",
+      "anno": 2022,
+      "km": 41100,
+      "prezzo": 17500,
+      "carburante": "ibrida",
+      "cambio": "automatico",
+      "potenza_cv": 116,
+      "posti": 5,
+      "classe_emissioni": "Euro 6d",
       "status": "disponibile",
-      "featured": false,
+      "featured": true,
       "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/ES-0010/foto-01.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/ES-0010/foto-01.jpg"
+        "https://www.autoracconigi.it/assets/img/cars/ES-0005/foto-01.jpg"
       ],
-      "aggiornata": "2026-11-11T15:35:35.414Z"
+      "aggiornata": "2026-11-11T16:10:48.339Z"
     },
     {
       "id": "ES-0007",
@@ -45,31 +44,31 @@
       "status": "disponibile",
       "featured": true,
       "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/ES-0007/placeholder.svg"
+        "https://www.autoracconigi.it/assets/img/cars/ES-0007/foto-01.jpg"
       ],
-      "aggiornata": "2026-11-10T19:32:07.090Z"
+      "aggiornata": "2026-11-11T16:10:29.670Z"
     },
     {
-      "id": "ES-0005",
-      "slug": "toyota-yaris-1-5-hybrid-trend",
-      "url": "/auto/toyota-yaris-1-5-hybrid-trend/",
-      "marca": "Toyota",
-      "modello": "Yaris",
-      "allestimento": "1.5 Hybrid Trend 116 CV",
-      "anno": 2022,
-      "km": 41100,
-      "prezzo": 17500,
-      "carburante": "ibrida",
-      "cambio": "automatico",
-      "potenza_cv": 116,
-      "posti": 5,
-      "classe_emissioni": "Euro 6d",
+      "id": "ES-0010",
+      "slug": "fiat-dobo-1-6-mjt-cargo-lavoro",
+      "url": "/auto/fiat-dobo-1-6-mjt-cargo-lavoro/",
+      "marca": "Fiat",
+      "modello": "Doblò",
+      "allestimento": "1.6 MJT Cargo Lavoro 105 CV",
+      "anno": 2019,
+      "km": 121500,
+      "prezzo": 9900,
+      "carburante": "diesel",
+      "cambio": "manuale",
+      "potenza_cv": 105,
+      "posti": 2,
+      "classe_emissioni": "Euro 6d-temp",
       "status": "disponibile",
-      "featured": true,
+      "featured": false,
       "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/ES-0005/placeholder.svg"
+        "https://www.autoracconigi.it/assets/img/cars/ES-0010/foto-01.jpg"
       ],
-      "aggiornata": "2026-11-03T10:30:00+01:00"
+      "aggiornata": "2026-11-11T16:10:00.206Z"
     },
     {
       "id": "ES-0002",
