@@ -1,9 +1,38 @@
 {
-  "generato_il": "2026-11-12T15:46:57.203Z",
+  "generato_il": "2026-11-12T16:29:53.133Z",
   "sorgente": "data/cars.json",
-  "totali": 1,
-  "disponibili": 1,
+  "totali": 2,
+  "disponibili": 2,
   "auto": [
+    {
+      "id": "V-0002",
+      "slug": "renault-kangoo-passenger-1-5-blue-dci-edition-one-95cv-n1-5-posti-2022",
+      "url": "/auto/renault-kangoo-passenger-1-5-blue-dci-edition-one-95cv-n1-5-posti-2022/",
+      "marca": "Renault",
+      "modello": "Kangoo",
+      "allestimento": "Passenger 1.5 blue dci Edition One 95cv - N1 5 POSTI",
+      "anno": 2022,
+      "km": 177700,
+      "prezzo": 11900,
+      "carburante": "benzina",
+      "cambio": "manuale",
+      "potenza_cv": 95,
+      "posti": 5,
+      "classe_emissioni": "EURO 6d",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0002/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-12T16:29:53.095Z"
+    },
     {
       "id": "V-0001",
       "slug": "jeep-avenger-1-2-100cv-summit-2023",
