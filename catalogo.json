@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-11-12T16:31:36.256Z",
+  "generato_il": "2026-11-12T16:32:13.893Z",
   "sorgente": "data/cars.json",
   "totali": 2,
   "disponibili": 2,
@@ -10,7 +10,7 @@
       "url": "/auto/jeep-avenger-1-2-100cv-summit-2023/",
       "marca": "Jeep",
       "modello": "Avenger",
-      "allestimento": "1.2 100cv Summit                                                                                                                                                                 PREZZO VERO CHIAVI IN MANO",
+      "allestimento": "1.2 100cv Summit",
       "anno": 2023,
       "km": 36000,
       "prezzo": 17990,
@@ -31,7 +31,7 @@
         "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-06.jpg",
         "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-08.jpg"
       ],
-      "aggiornata": "2026-11-12T16:31:36.225Z"
+      "aggiornata": "2026-11-12T16:32:13.861Z"
     },
     {
       "id": "V-0002",
