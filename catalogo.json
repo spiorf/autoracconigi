@@ -1,9 +1,38 @@
 {
-  "generato_il": "2026-11-12T17:10:41.496Z",
+  "generato_il": "2026-11-12T17:15:58.171Z",
   "sorgente": "data/cars.json",
-  "totali": 5,
-  "disponibili": 5,
+  "totali": 6,
+  "disponibili": 6,
   "auto": [
+    {
+      "id": "V-0006",
+      "slug": "alfa-romeo-stelvio-2-2-sprint-rwd-160cv-at8-prezzo-vero-soli-10-159km-2024",
+      "url": "/auto/alfa-romeo-stelvio-2-2-sprint-rwd-160cv-at8-prezzo-vero-soli-10-159km-2024/",
+      "marca": "Alfa Romeo",
+      "modello": "Stelvio",
+      "allestimento": "2.2 Sprint rwd 160cv AT8 - PREZZO VERO. Soli 10.159km",
+      "anno": 2024,
+      "km": 10159,
+      "prezzo": 29900,
+      "carburante": "diesel",
+      "cambio": "automatico",
+      "potenza_cv": 160,
+      "posti": 5,
+      "classe_emissioni": "EURO 6d",
+      "status": "disponibile",
+      "featured": true,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-12T17:15:58.133Z"
+    },
     {
       "id": "V-0005",
       "slug": "alfa-romeo-junior-1-2-ibrida-145cv-edct6-prezzo-vero-soli-2-498-km-2025",
