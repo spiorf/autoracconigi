@@ -1,7 +1,37 @@
 {
-  "generato_il": "2026-11-12T13:47:57.483Z",
+  "generato_il": "2026-11-12T15:12:35.301Z",
   "sorgente": "data/cars.json",
-  "totali": 0,
-  "disponibili": 0,
-  "auto": []
+  "totali": 1,
+  "disponibili": 1,
+  "auto": [
+    {
+      "id": "V-0001",
+      "slug": "jeep-avenger-1-2-100cv-summit-2023",
+      "url": "/auto/jeep-avenger-1-2-100cv-summit-2023/",
+      "marca": "Jeep",
+      "modello": "Avenger",
+      "allestimento": "1.2 100cv Summit",
+      "anno": 2023,
+      "km": 36000,
+      "prezzo": 17990,
+      "carburante": "benzina",
+      "cambio": "manuale",
+      "potenza_cv": 100,
+      "posti": 5,
+      "classe_emissioni": "EURO 6e",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-12T15:12:35.269Z"
+    }
+  ]
 }
