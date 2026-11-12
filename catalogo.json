@@ -1,9 +1,38 @@
 {
-  "generato_il": "2026-11-12T17:04:59.940Z",
+  "generato_il": "2026-11-12T17:10:32.478Z",
   "sorgente": "data/cars.json",
-  "totali": 4,
-  "disponibili": 4,
+  "totali": 5,
+  "disponibili": 5,
   "auto": [
+    {
+      "id": "V-0005",
+      "slug": "alfa-romeo-junior-1-2-ibrida-145cv-edct6-prezzo-vero-soli-2-498-km-2025",
+      "url": "/auto/alfa-romeo-junior-1-2-ibrida-145cv-edct6-prezzo-vero-soli-2-498-km-2025/",
+      "marca": "Alfa Romeo",
+      "modello": "Junior",
+      "allestimento": "1.2 ibrida 145cv edct6 - PREZZO VERO. SOLI 2.498 km!!!",
+      "anno": 2025,
+      "km": 2498,
+      "prezzo": 23990,
+      "carburante": "ibrida",
+      "cambio": "automatico",
+      "potenza_cv": 136,
+      "posti": 5,
+      "classe_emissioni": "EURO 6e",
+      "status": "disponibile",
+      "featured": true,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0005/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-12T17:10:32.443Z"
+    },
     {
       "id": "V-0004",
       "slug": "hyundai-i20-1-0-t-gdi-48v-connectline-100cv-prezzo-vero-soli-8-109-km-2024",
