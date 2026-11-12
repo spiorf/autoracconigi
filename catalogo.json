@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-11-12T15:12:45.433Z",
+  "generato_il": "2026-11-12T15:35:23.818Z",
   "sorgente": "data/cars.json",
   "totali": 1,
   "disponibili": 1,
@@ -31,7 +31,7 @@
         "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-06.jpg",
         "https://www.autoracconigi.it/assets/img/cars/V-0001/foto-08.jpg"
       ],
-      "aggiornata": "2026-11-12T15:12:44.508Z"
+      "aggiornata": "2026-11-12T15:35:23.778Z"
     }
   ]
 }
