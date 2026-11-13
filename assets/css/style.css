@@ -367,6 +367,52 @@ input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent-d
 .gallery__thumbs img[aria-current="true"] { border-color: var(--accent); }
 .gallery__count { margin-left: auto; align-self: center; font-size: .8rem; color: var(--muted); white-space: nowrap; padding-right: .3rem; }
 
+/* ---- zoom delle foto della scheda auto ----
+   La lente in basso sulla foto apre la finestra a schermo intero (.zoom):
+   la barra sotto ha i comandi scritti per chi vende auto, non per chi programma. */
+.gallery--zoom .gallery__main img { cursor: zoom-in; }
+.gallery__zoom {
+  position: absolute; right: .65rem; bottom: .65rem; z-index: 2;
+  display: inline-flex; align-items: center; gap: .4rem;
+  background: rgba(11, 22, 33, .62); color: #fff; border: 0; border-radius: 999px;
+  padding: .5rem .85rem; font: inherit; font-size: .85rem; font-weight: 600;
+  cursor: zoom-in; -webkit-backdrop-filter: blur(2px); backdrop-filter: blur(2px);
+}
+.gallery__zoom:hover { background: rgba(11, 22, 33, .88); }
+/* Senza JavaScript la lente non farebbe niente: meglio non prometterla (<html class="no-js">). */
+.no-js .gallery__zoom { display: none; }
+.no-js .gallery--zoom .gallery__main img { cursor: auto; }
+
+.zoom { position: fixed; inset: 0; z-index: 300; display: grid; grid-template-rows: 1fr auto; background: rgba(6, 12, 18, .96); }
+/* .zoom è display:grid: senza questa riga l'attributo hidden non nasconderebbe la finestra. */
+.zoom[hidden] { display: none; }
+.zoom__stage { display: grid; place-items: center; align-items: center; min-height: 0; overflow: hidden; padding: clamp(.5rem, 2vw, 1.3rem); touch-action: none; }
+.zoom__img { max-width: 100%; max-height: 100%; object-fit: contain; border-radius: 6px; box-shadow: var(--shadow-lg); cursor: zoom-in; touch-action: none; }
+.zoom[data-zoomed="true"] .zoom__img { cursor: grab; }
+.zoom__hint {
+  position: absolute; top: .9rem; left: 50%; transform: translateX(-50%); margin: 0;
+  max-width: calc(100% - 2rem); padding: .35rem .8rem; border-radius: 999px;
+  background: rgba(11, 22, 33, .66); color: rgba(255, 255, 255, .82); font-size: .82rem;
+  opacity: 0; transition: opacity .2s ease; pointer-events: none;
+}
+.zoom[data-zoomed="true"] .zoom__hint { opacity: 1; }
+.zoom__bar {
+  display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: .45rem;
+  padding: .7rem clamp(.5rem, 3vw, 1.2rem) calc(.7rem + env(safe-area-inset-bottom, 0px));
+}
+.zoom__btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .4rem;
+  min-width: 46px; min-height: 46px; padding: .45rem .85rem;
+  background: rgba(255, 255, 255, .09); color: #fff; border: 1px solid rgba(255, 255, 255, .22);
+  border-radius: 999px; font: inherit; font-size: .9rem; font-weight: 600; cursor: pointer;
+}
+.zoom__btn:hover { background: rgba(255, 255, 255, .2); }
+.zoom__level, .zoom__count { min-width: 3.6rem; text-align: center; color: rgba(255, 255, 255, .85); font-size: .85rem; font-variant-numeric: tabular-nums; }
+.zoom__sep { width: 1px; height: 26px; margin: 0 .35rem; background: rgba(255, 255, 255, .2); }
+@media (max-width: 560px) { .zoom__etichetta { display: none; } }
+/* Con la finestra aperta la pagina sotto non deve scorrere. */
+html.ha-zoom { overflow: hidden; }
+
 .pricebox { position: sticky; top: 92px; background: #fff; border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.4rem; }
 .pricebox__price { font-size: clamp(2rem, 4vw, 2.7rem); font-weight: 800; color: var(--navy-900); letter-spacing: -.035em; line-height: 1; }
 .pricebox__meta { color: var(--muted); font-size: .9rem; margin: .5rem 0 1rem; }
@@ -478,7 +524,7 @@ input[type="checkbox"] { width: 18px; height: 18px; accent-color: var(--accent-d
 /* -------------------------------- print -------------------------------- */
 
 @media print {
-  .site-header, .site-footer, .mobile-bar, .pricebox .btn, .btn, .gallery__thumbs, .gallery__nav, .cta-band, .breadcrumbs { display: none !important; }
+  .site-header, .site-footer, .mobile-bar, .pricebox .btn, .btn, .gallery__thumbs, .gallery__nav, .gallery__zoom, .cta-band, .breadcrumbs, .zoom { display: none !important; }
   body { color: #000; font-size: 12pt; }
   .pricebox, .gallery, .info-card, .feature { box-shadow: none; }
   section { padding-block: .6rem; }
