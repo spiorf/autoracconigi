@@ -1,9 +1,38 @@
 {
-  "generato_il": "2026-11-13T17:47:39.242Z",
+  "generato_il": "2026-11-13T17:50:27.661Z",
   "sorgente": "data/cars.json",
   "totali": 6,
   "disponibili": 6,
   "auto": [
+    {
+      "id": "V-0003",
+      "slug": "renault-clio-1-0-sce-life-65cv-prezzo-vero-2023",
+      "url": "/auto/renault-clio-1-0-sce-life-65cv-prezzo-vero-2023/",
+      "marca": "Renault",
+      "modello": "Clio",
+      "allestimento": "1.0 sce Life 65cv - PREZZO VERO",
+      "anno": 2023,
+      "km": 21400,
+      "prezzo": 12900,
+      "carburante": "benzina",
+      "cambio": "manuale",
+      "potenza_cv": 65,
+      "posti": 5,
+      "classe_emissioni": "Euro 6e",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-13T17:50:27.616Z"
+    },
     {
       "id": "V-0006",
       "slug": "alfa-romeo-stelvio-2-2-sprint-rwd-160cv-at8-prezzo-vero-soli-10-159km-2024",
@@ -31,7 +60,7 @@
         "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-07.jpg",
         "https://www.autoracconigi.it/assets/img/cars/V-0006/foto-08.jpg"
       ],
-      "aggiornata": "2026-11-13T17:47:39.203Z"
+      "aggiornata": "2026-11-13T17:49:13.787Z"
     },
     {
       "id": "V-0005",
@@ -90,35 +119,6 @@
         "https://www.autoracconigi.it/assets/img/cars/V-0004/foto-08.jpg"
       ],
       "aggiornata": "2026-11-12T16:58:53.183Z"
-    },
-    {
-      "id": "V-0003",
-      "slug": "renault-clio-1-0-sce-life-65cv-prezzo-vero-2023",
-      "url": "/auto/renault-clio-1-0-sce-life-65cv-prezzo-vero-2023/",
-      "marca": "Renault",
-      "modello": "Clio",
-      "allestimento": "1.0 sce Life 65cv - PREZZO VERO",
-      "anno": 2023,
-      "km": 21400,
-      "prezzo": 12900,
-      "carburante": "benzina",
-      "cambio": "manuale",
-      "potenza_cv": 65,
-      "posti": 5,
-      "classe_emissioni": "Euro 6e",
-      "status": "disponibile",
-      "featured": true,
-      "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-01.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-02.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-03.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-04.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-05.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-06.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-07.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0003/foto-08.jpg"
-      ],
-      "aggiornata": "2026-11-12T16:49:45.880Z"
     },
     {
       "id": "V-0002",
