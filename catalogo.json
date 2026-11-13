@@ -1,9 +1,31 @@
 {
-  "generato_il": "2026-11-13T17:50:34.585Z",
+  "generato_il": "2026-11-13T17:56:07.515Z",
   "sorgente": "data/cars.json",
-  "totali": 6,
-  "disponibili": 6,
+  "totali": 7,
+  "disponibili": 7,
   "auto": [
+    {
+      "id": "V-0007",
+      "slug": "lancia-ypsilon-1-0-firefly-hybrid-gold-prezzo-vero-2020",
+      "url": "/auto/lancia-ypsilon-1-0-firefly-hybrid-gold-prezzo-vero-2020/",
+      "marca": "Lancia",
+      "modello": "Ypsilon",
+      "allestimento": "1.0 firefly hybrid Gold - PREZZO VERO",
+      "anno": 2020,
+      "km": 15800,
+      "prezzo": 9600,
+      "carburante": "ibrida",
+      "cambio": "manuale",
+      "potenza_cv": 70,
+      "posti": 4,
+      "classe_emissioni": "Euro 6d",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/placeholder.svg"
+      ],
+      "aggiornata": "2026-11-13T17:56:07.476Z"
+    },
     {
       "id": "V-0003",
       "slug": "renault-clio-1-0-sce-life-65cv-prezzo-vero-2023",
