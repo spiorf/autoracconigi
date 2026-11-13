@@ -1,5 +1,5 @@
 {
-  "generato_il": "2026-11-13T17:56:16.326Z",
+  "generato_il": "2026-11-13T17:57:23.652Z",
   "sorgente": "data/cars.json",
   "totali": 7,
   "disponibili": 7,
@@ -22,9 +22,16 @@
       "status": "disponibile",
       "featured": false,
       "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/V-0007/placeholder.svg"
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0007/foto-08.jpg"
       ],
-      "aggiornata": "2026-11-13T17:56:10.764Z"
+      "aggiornata": "2026-11-13T17:57:23.611Z"
     },
     {
       "id": "V-0003",
