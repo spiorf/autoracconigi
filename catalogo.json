@@ -1,9 +1,38 @@
 {
-  "generato_il": "2026-11-14T10:10:11.758Z",
+  "generato_il": "2026-11-14T10:17:14.853Z",
   "sorgente": "data/cars.json",
-  "totali": 7,
-  "disponibili": 7,
+  "totali": 8,
+  "disponibili": 8,
   "auto": [
+    {
+      "id": "V-0008",
+      "slug": "lancia-ypsilon-1-0-firefly-hybrid-gold-prezzo-vero-2022",
+      "url": "/auto/lancia-ypsilon-1-0-firefly-hybrid-gold-prezzo-vero-2022/",
+      "marca": "Lancia",
+      "modello": "Ypsilon",
+      "allestimento": "1.0 firefly hybrid Gold - PREZZO VERO",
+      "anno": 2022,
+      "km": 30826,
+      "prezzo": 10990,
+      "carburante": "ibrida",
+      "cambio": "manuale",
+      "potenza_cv": 70,
+      "posti": 5,
+      "classe_emissioni": "Euro 6d",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0008/foto-08.jpg"
+      ],
+      "aggiornata": "2026-11-14T10:17:14.811Z"
+    },
     {
       "id": "V-0006",
       "slug": "alfa-romeo-stelvio-2-2-sprint-rwd-160cv-at8-soli-10-159km-2024",
