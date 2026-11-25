@@ -1,9 +1,45 @@
 {
-  "generato_il": "2026-11-25T16:05:57.463Z",
+  "generato_il": "2026-11-25T16:07:25.329Z",
   "sorgente": "data/cars.json",
   "totali": 10,
   "disponibili": 5,
   "auto": [
+    {
+      "id": "V-0009",
+      "slug": "fiat-500x-1-0-firefly-120cv-lounge-prezzo-vero-2020",
+      "url": "/auto/fiat-500x-1-0-firefly-120cv-lounge-prezzo-vero-2020/",
+      "marca": "Fiat",
+      "modello": "500X",
+      "allestimento": "1.0 Firefly 120cv Lounge - Prezzo Vero",
+      "anno": 2020,
+      "km": 35250,
+      "prezzo": 12900,
+      "carburante": "benzina",
+      "cambio": "manuale",
+      "potenza_cv": 120,
+      "posti": 5,
+      "classe_emissioni": "Euro 6d",
+      "status": "disponibile",
+      "featured": false,
+      "foto": [
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-01.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-02.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-03.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-04.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-05.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-06.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-07.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-08.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-09.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-10.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-11.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-12.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-13.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-14.jpg",
+        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-15.jpg"
+      ],
+      "aggiornata": "2026-11-25T16:07:25.284Z"
+    },
     {
       "id": "V-0010",
       "slug": "fiat-panda-1-2-69cv-city-cross-2018",
@@ -39,35 +75,6 @@
         "https://www.autoracconigi.it/assets/img/cars/V-0010/foto-15.jpg"
       ],
       "aggiornata": "2026-11-25T16:05:56.934Z"
-    },
-    {
-      "id": "V-0009",
-      "slug": "fiat-500x-1-0-firefly-120cv-lounge-prezzo-vero-2020",
-      "url": "/auto/fiat-500x-1-0-firefly-120cv-lounge-prezzo-vero-2020/",
-      "marca": "Fiat",
-      "modello": "500X",
-      "allestimento": "1.0 Firefly 120cv Lounge - Prezzo Vero",
-      "anno": 2020,
-      "km": 35250,
-      "prezzo": 12900,
-      "carburante": "benzina",
-      "cambio": "manuale",
-      "potenza_cv": 120,
-      "posti": 5,
-      "classe_emissioni": "Euro 6d",
-      "status": "disponibile",
-      "featured": false,
-      "foto": [
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-01.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-02.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-03.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-04.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-05.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-06.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-07.jpg",
-        "https://www.autoracconigi.it/assets/img/cars/V-0009/foto-08.jpg"
-      ],
-      "aggiornata": "2026-11-17T17:54:34.987Z"
     },
     {
       "id": "V-0001",
